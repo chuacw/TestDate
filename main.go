@@ -6,10 +6,10 @@ import (
 
 var (
 	Version   string
-	myversion string = "Hello World"
+	MyGreetings string = "Hello World"
 )
 
 func main() {
 	fmt.Println(Version)
-	fmt.Println(myversion)
+	fmt.Println(MyGreetings)
 }
